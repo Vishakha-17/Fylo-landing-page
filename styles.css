@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 250% 50%;
+    background-position: bottom;
+}
+
+ul {
+ list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.desc_btn:hover, .footer_btn:hover {
+ cursor: pointer;
+}
+
+/* ----------------    Header    ---------------- */
+
+.header {
+    margin-bottom: 2rem;
+    padding: 4%;
+}
+
+.head_img {
+    width: 20vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.navbar ul li {
+    margin-right: 3rem;
+}
+
+.navbar ul li a {
+    color: #000;
+    font-size: 18px;
+}
+
+
+/* ----------------    Container    ---------------- */
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    padding: 4%;
+}
+
+.desc_img1 {
+    width: 80vh;
+    height: 70vh;
+}
+
+.description1 {
+    width: 90%;
+    height: 50%;
+    margin-top: 12vh;
+    align-items:center;
+    
+}
+
+.description2 {
+    width: 90%;
+    height: 50%;
+    margin-top: 15vh;
+    align-items:center;
+}
+
+.container2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    padding-bottom: 5%;
+    padding: 4%;
+}
+
+.desc_img2 {
+    margin-top: 10vh;
+    width: 70vh;
+    height: 60vh;
+}
+
+.desc_head {
+    font-size: 44px;
+}
+
+.desc_para {
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.desc_text {
+    margin-top: 4%;
+    padding: 2%;
+    font-size: 16px;
+    height: 7%;
+    width: 50%;    
+}
+
+.desc_btn {
+   margin-top: 4%;
+    margin-left: 1rem;
+    width: 20vh;
+    height: 4.9vh;
+    padding: 1vh;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+    color: #fff;
+}
+
+.desc_head {
+    margin-bottom: 2rem;
+}
+
+.link {
+    margin-top: 1rem;
+}
+
+.link p a {
+    border-bottom: 1px solid green;
+    padding-bottom: 0.25rem;
+    color: green;
+    font-size: 18px;
+}
+
+.link p a img {
+    width: 2vh;
+    height: 2vh;
+    margin-bottom: -0.25rem;
+}
+
+/* ----------------    Description    ---------------- */
+
+/* ----------------    Card    ---------------- */
+
+.card {
+    margin-top: -15vh;
+    width: 50%;
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 15px 15px 50px -40px rgb(195, 175, 175);
+}
+
+.avatar {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50px;
+    margin-right: 0.5rem;
+}
+
+.card_footer {
+    margin-top: 2vh;
+    display: flex;
+}
+
+.card_footer .name p {
+    font-size: 12px;
+}
+
+/* ----------------    First_Footer    ---------------- */
+.first_footer {
+    padding: 4%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(238, 22%, 44%);
+}
+
+.footer_header {
+    width: 40%;
+    color: #fff;
+}
+.footer_para {
+    font-size: 20px;
+}
+
+.footer_head {
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+
+.footer_form {
+    margin-right: 15%;
+}
+
+.footer_text {
+    margin-top: 4%;
+    padding: 2%;
+    height: 4vh;
+    width: 40vh; 
+}
+
+
+.footer_btn {
+    margin-top: 4%;
+    
+    width: 20vh;
+    height: 4vh;
+    padding: 1vh;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+    color: #fff;
+}
+
+/* ----------------    Second_Footer    ---------------- */
+
+.second_footer {
+   padding: 4% 8% 4% 4%; 
+   background-color: hsl(243, 87%, 12%);
+   color: #fff;
+}
+
+
+.contact {
+    margin-top: 1rem;
+    display: flex;
+   justify-content:space-between;
+}
+
+.contact_link1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__icon {
+    
+    margin-right: 0.5rem;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 3px;
+    padding-right: 1px;
+}
+
+.contact_link {
+    margin-bottom: 1.5rem;
+}
+
+.contact_link:hover {
+    cursor: pointer;
+    border-color: lightskyblue;
+    color: lightskyblue;
+}
+
+
+/* ----------------    Font    ---------------- */
+
+.desc_head , .footer_head,  h4{
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.navbar {
+    font-family: 'Raleway';
+}
+ .second_footer, .footer_para, .card , .desc_para{
+    font-family: 'Open Sans';
+}
+
+input[type="button"]{
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+input[type="text"] {
+    font-family: 'Open Sans';
+}
+
+.first_footer input[type="button"], .first_footer input[type="text"] {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 15px 15px 50px 5px  hsl(240, 22%, 34%);
+}
+
+/* ----------------   Media  1260px  ---------------- */
+
+@media (max-width: 1260px) {
+   .form_1 {
+        display: block;
+        position: relative;
+   }
+
+   .desc_text {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+   }
+
+   .desc_btn {
+        position: absolute;
+        left: -15px;
+        top: 5vh;
+
+   }
+   
+    .desc_img1 {
+    width: 60vh;
+    height: 50vh;
+    }
+
+    .desc_img2 {
+    margin-top: 8vh;
+    width: 50vh;
+    height: 40vh;
+    }
+
+    .card {
+        margin-top: 1rem;
+        width: 70%;
+    }
+}
+
+
+/* ----------------   Media  1200px  ---------------- */
+
+@media(max-width:1200px) {
+    .footer_form {
+    margin-right: 5%;
+}
+}
+
+/* ----------------   Media  870px  ---------------- */
+
+@media(max-width:870px) {
+     .container2, .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .desc_img1, .desc_img2 {
+        order: 1;
+    }
+
+    .description1, .description2 {
+        order: 2;
+    }
+
+    .card {
+        order: 3;
+        margin-top: 4rem;
+    }
+
+    
+
+    .form_1
+    {
+        align-items: center;
+    }
+
+    .desc_btn {
+        margin-top: 2rem;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* .desc_btn {
+        left: 17%;
+        margin-top: 3rem;
+        width: 45vh;
+        font-size: 20px;
+    }
+    .desc_text {
+        left: 7.5%;
+        margin-top: 2rem;
+        width: 45vh;
+    } */
+
+    .first_footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer_header {
+        width: 75%;
+        text-align: center;
+    }
+
+    .footer_para {
+        margin-top: 2rem;
+    }
+
+    .footer_form {
+        margin-left: 2vh;
+    }
+
+    .footer_btn {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .con1, .con2, .con3, .con4 {
+        margin-top: 2rem;
+        margin-left: 2vh;
+    }
+
+    .contact_link1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
